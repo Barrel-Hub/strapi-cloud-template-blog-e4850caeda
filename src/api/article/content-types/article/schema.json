@@ -53,6 +53,14 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "ckeditor": {
+      "type": "customField",
+      "options": {
+        "output": "Markdown",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

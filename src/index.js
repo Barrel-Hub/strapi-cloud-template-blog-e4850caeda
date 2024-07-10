@@ -1,5 +1,6 @@
 "use strict";
 const bootstrap = require("./bootstrap");
+require("dotenv").config();
 
 module.exports = {
   /**
